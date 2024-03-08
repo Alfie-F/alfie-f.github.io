@@ -1,8 +1,11 @@
 
 
 body{
-
-        background-color: grey;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    
+        background-image:linear-gradient(grey,red);
     text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -29,9 +32,9 @@ font-size: large;
 }
 
 #css-id{
-color: darkgreen;
+color: grey;
 padding-left: 1cm;
-padding-top: 1cm;
+padding-top: 8cm;
 padding-bottom: 1cm;
 padding-right: 1cm;
 
@@ -45,17 +48,27 @@ border-color: darkgreen
     clip-path: circle();
 }
 
+#css-id-squid{
+    padding-top: 5cm;
+ 
+}
+
 .wrapper{
+    padding-top: 1cm;
+ 
 display:grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 300px 300px
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 6cm
+
 }
 
 #css-id-head{
     background-color: aquamarine;
     border-color: aquamarine;
-    color: aquamarine
-    }
+    margin-top: 0cm;
+    margin-left: 0cm;
+    color: red;
+ }
 
 
 /*responsive? display: flex look into - can aslo look into display: grid - grid template could be good?
