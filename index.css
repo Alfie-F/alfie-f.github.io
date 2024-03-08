@@ -1,0 +1,58 @@
+* {
+ background-color:salmon
+}
+
+body{
+    text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+font-family: monospace;
+font-size: large;
+}
+
+.changed-text{
+    text-align: center;
+    padding-left: 0;
+    list-style-position: inside;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.changed-text2{
+ padding-left: 0;
+ list-style-position: inside;
+ color: aliceblue;
+}
+
+#css-id{
+color: darkgreen;
+padding-left: 1cm;
+padding-top: 1cm;
+padding-bottom: 1cm;
+
+}
+#css-id-img{
+border-style: dashed;
+border-color: darkgreen
+}
+
+#css-id-img2{
+    margin-left: 1%;
+    margin-bottom: 1%;
+    clip-path: circle();
+}
+
+.wrapper{
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 300px 300px
+}
+
+
+/*responsive? display: flex look into - can aslo look into display: grid - grid template could be good?
